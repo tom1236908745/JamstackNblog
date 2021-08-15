@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-unfetch';
+import Link from 'next/link';
 
 const BlogId = ({blog}) => {
   return (
