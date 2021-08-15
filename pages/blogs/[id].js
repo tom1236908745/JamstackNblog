@@ -12,6 +12,12 @@ const BlogId = ({blog}) => {
         ))}
       </div>
       <div dangerouslySetInnerHTML={{__html: `${blog.body}`}}></div>
+      <div>
+          <br />
+          <Link href="/">
+            <a>← Back to home</a>
+          </Link>
+        </div>
     </div>
   );
 };
