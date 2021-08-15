@@ -18,6 +18,7 @@ const BlogId = ({blog}) => {
           <Link href="/">
             <a>← Back to home</a>
           </Link>
+          <br />
         </div>
     </div>
   );
